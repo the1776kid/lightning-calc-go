@@ -1,4 +1,4 @@
-module myProjects/lightning-distance-calculator
+module github.com/the1776kid/lightning-calc-go
 
 go 1.19
 
