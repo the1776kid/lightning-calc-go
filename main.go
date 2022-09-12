@@ -28,7 +28,7 @@ func distanceCalc(t float64) float64 {
 
 func gui() {
 	a := app.New()
-	w := a.NewWindow("Hello")
+	w := a.NewWindow("lightning")
 	info := widget.NewLabel(fmt.Sprintf("%f seconds, %f miles", float64(1), distanceCalc(1)))
 	calFunc := func() {
 		if waiting {
